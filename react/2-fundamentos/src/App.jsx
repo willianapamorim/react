@@ -4,6 +4,7 @@ import Welcome from './components/Welcome';
 import BomDia from './components/BomDIa';
 import Pai from './components/Pai';
 import Descricao from './components/Descricao';
+import Cachorro from './components/Cachorro';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       {/* 6.4 -  Props */}
       <Descricao nome="Bob" idade={20}/>
       {/* 6.5 -  Desestruturação de Props */}
-      
+      <Cachorro nome="Princeso" raca="Buldog"/>
 
     </>
   )
