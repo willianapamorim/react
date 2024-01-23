@@ -17,6 +17,8 @@ function App() {
       <Pai />
       {/* 6.4 -  Props */}
       <Descricao nome="Bob" idade={20}/>
+      {/* 6.5 -  Desestruturação de Props */}
+      
 
     </>
   )
